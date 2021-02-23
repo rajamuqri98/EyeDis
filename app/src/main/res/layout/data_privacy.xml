@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/info_background">
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/ic_close_black_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="7dp"
+        android:onClick="closePrivacyDialog"
+        />
+
+    <TextView
+        android:id="@+id/data_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA PRIVACY"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/privacy_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLine"
+        android:layout_below="@+id/data_text1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/privacy_mainText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/privacy_line"
+        android:textAlignment="textStart"
+        android:text="@string/privacy_mainText"/>
+
+    <TextView
+        android:id="@+id/privacy_mainText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="textStart"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/privacy_mainText"
+        android:text="@string/privacy_Text"/>
+
+</RelativeLayout>

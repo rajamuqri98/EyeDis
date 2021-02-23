@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EyeDis</string>
+    <string name="splash_text">EyeDis</string>
+    <string name="settings_title">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Toolbar Layout -->
+    <string name="toolbarlogo">Logo</string>
+
+    <!-- Setting Layout -->
+    <string name="camera_header">Camera</string>
+    <string name="flash_title">Enable auto-Flash</string>
+    <string name="gpu_title">use GPu</string>
+    <string name="focus_title">Enable auto-Focus</string>
+    <string name="voice_title">Enable voice output</string>
+    <string name="save_title">Save Configuration</string>
+
+    <string name="guide_text">Guide</string>
+    <string name="text_1">1. Tap image to capture picture.</string>
+    <string name="text_2">2. Wait a few seconds to get result.</string>
+
+    <string name="info_text1">This app uses object recognition model to identify objects in images. There are 10 objects which are recognizable by the model.</string>
+    <string name="info_text2">The recognizable objects are:</string>
+    <string name="info_text3">Apple, Banana, Cabbage, Carrot, Cucumber, Garlic, Orange, Potato, Tomato, Watermelon</string>
+
+    <string name="privacy">Data Privacy</string>
+    <string name="privacy_mainText">eyedis will temporarily collect your data when:</string>
+    <string name="privacy_Text">The image is captured, it will saved into device storage. eyedis will access the image data for recognition process</string>
+
+
+</resources>
